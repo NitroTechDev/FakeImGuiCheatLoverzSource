@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Dllmain.cpp">
+      <Filter>Maestro</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RenderHelper.h">
+      <Filter>Maestro</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Maestro</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatSettings.h">
+      <Filter>Maestro</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderCanvas.h">
+      <Filter>Maestro</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealStructs.h">
+      <Filter>Maestro</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstring.h">
+      <Filter>Maestro</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Maestro</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\MinHook.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{9959dfe3-53c9-4ec3-9ceb-ffefab93b937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maestro">
+      <UniqueIdentifier>{6b414813-a67e-49c0-9512-bc93658695fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="shellcode.asm">
+      <Filter>Maestro</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="hook\minhook.lib" />
+  </ItemGroup>
+</Project>
